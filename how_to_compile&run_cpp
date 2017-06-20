@@ -1,2 +1,0 @@
-g++ input.cpp -o output
-./output
