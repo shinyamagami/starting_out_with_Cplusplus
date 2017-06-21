@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-   double tax_rate = 0.0675;
-   double tip_rate = 0.2;
+   const double TAX_RATE = 0.0675;
+   const double TIP_RATE = 0.2;
    double purchase = 88.67;
 
    double tax = purchase * (1 + tax_rate);

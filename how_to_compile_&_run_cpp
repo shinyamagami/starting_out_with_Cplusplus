@@ -1,0 +1,6 @@
+make input_without_extension
+./output
+
+
+g++ input.cpp -o output
+./output
