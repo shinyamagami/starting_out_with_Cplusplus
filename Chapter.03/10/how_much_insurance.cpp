@@ -5,17 +5,16 @@ using namespace std;
 
 int main()
 {
-  const double PRESUMED = 10;
-  const double PRECALORIES = 300;
+  const double INSURANCE = 0.8;
 
-  double cookies;
-  double calories;
+  double price;
+  double cost;
 
-  cout << "Please enter the number of cookies you ate: ";
-  cin >> cookies;
+  cout << "Please enter the price for rebuilding your house: ";
+  cin >> price;
 
-  calories = cookies * PRECALORIES / PRESUMED;
+  cost = price * INSURANCE;
 
-  cout << setprecision(2) << fixed << calories << " calories were consumed."
+  cout << "$" << setprecision(2) << fixed << cost
        << endl;
 }
